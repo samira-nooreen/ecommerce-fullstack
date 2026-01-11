@@ -54,8 +54,12 @@ export default function Home() {
                     <ArrowRight className="w-4 h-4" />
                   </Button>
                 </Link>
-                <Button variant="outline" className="border-zinc-700 text-white hover:bg-zinc-800 h-12 px-8">
-                  View Deals
+                <Button 
+                  variant="outline" 
+                  className="border-zinc-700 text-white hover:bg-zinc-800 h-12 px-8"
+                  onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://demo.example.com" } }, "*")}
+                >
+                  Live Demo
                 </Button>
               </div>
             </motion.div>
