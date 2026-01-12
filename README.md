@@ -3,7 +3,7 @@
 A Full Stack e-commerce web application that delivers a complete online shopping experience — from browsing products and managing carts to secure payments and order tracking.
 
 ## 🔗 Demo
-**Live Demo:** [https://demo.example.com](https://demo.example.com)
+**Live Demo:** [https://demo.example.com](https://3000-d35b2184-6134-4efe-a099-bf8d6662e947.orchids.cloud/)
 
 ## 🚀 Features
 ### 👤 User Features
